@@ -1,0 +1,129 @@
+:root {
+    --bg: #2c2d32;
+    --content-bg: #323339;
+    --text: #ccc;
+
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: #f1f1f1;
+        --text: #999;
+    }
+}
+
+html, body {
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+#frame {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    height: 500px;
+    /*border: 1px solid #fff;*/
+}
+
+#invite {
+    text-decoration: none;
+    background: #5865f2;
+    padding: 10px 16px 14px 16px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    position: absolute;
+    margin: -55px 0 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#invite img {
+    color: #fff;
+    height: 20px;
+}
+
+#sidebar {
+    margin-top: 5px;
+}
+
+#sidebar #mochi {
+    width: 100%;
+}
+
+.tab-title {
+    padding: 4px 15px 7px 15px;
+    margin: 8px 0;
+    cursor: pointer;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.tab-title:hover {
+    background: #34353b;
+}
+
+.tab-title.active {
+    background: #414248;
+}
+
+.tab-title span {
+    display: block;
+}
+
+.tab-title img {
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+
+#content {
+    flex-grow: 1;
+    margin-left: 15px;
+    border: 30px solid var(--content-bg);
+    overflow-y: scroll;
+    background: var(--content-bg);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    cursor: default;
+    line-height: 21px;
+
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+.tab span {
+    font-family: Courier, monospace;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h2, h3 {
+    color: #ffdd80;
+}
