@@ -16,7 +16,7 @@ channels.forEach(tab => {
     })
 });
 
-//switch tab on load when #guide or #legalese is appended to url
+//switch tab on load when tab name is appended to url
 document.addEventListener('DOMContentLoaded', () => {
     window.location.hash && changeTab(window.location.hash.substring(1));
 });

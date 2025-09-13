@@ -4,7 +4,7 @@
 <head>
     <title>Mochi Discord Bot</title>
     <meta charset="UTF-8" />
-    <meta name="description" content="Mochi cat discord bot official bio and guide." />
+    <meta name="description" content="Mochi cat discord bot - official bio and guide." />
     <meta http-equiv="content-script-type" content="text/javascript" />
     <meta http-equiv="content-style-type" content="text/css" />
     <meta http-equiv="content-language" content="en" />
@@ -15,33 +15,38 @@
 </head>
 
 <body>
-    <!--
-        mobile style
-        clean up css
-        add rank function to mochi's actual guide
-        -->
-
     <section id="frame">
-        <navigation id="sidebar">
-            <img id="mochi" src="images/mochi.webp" />
-            <section id="channels">
-                <div class="tab-title active" data-tab="about" aria-label="general"><span>#general</span><img src="images/home.svg" /></div>
-                <div class="tab-title" data-tab="guide" arial-label="controls"><span>#controls</span><img src="images/gamepad.svg" /></div>
-                <div class="tab-title" data-tab="legalese" aria-label="legalese"><span>#legalese</span><img src="images/info.svg" /></div>
-            </section>
-        </navigation>
+        <header>
+            <navigation id="channels">
+                <div class="tab-title active" data-tab="about" aria-label="general">lore</div>
+                <div class="tab-title" data-tab="guide" arial-label="controls">guide</div>
+                <div class="tab-title" data-tab="legalese" aria-label="legalese">legal</div>
+            </navigation>
+            <div id="visuals">
+                <img id="mochi" src="images/mochi.webp" />
+                <a id="invite" href="https://discord.com/oauth2/authorize?client_id=1080279719670464542"
+                    target="_blank"><span>add mochi</span> <img src="images/ext-link.svg" /></a>
+            </div>
+        </header>
         <main id="content">
-            <a id="invite" href="https://discord.com/oauth2/authorize?client_id=1080279719670464542" target="_blank"><span>add mochi</span> <img src="images/ext-link.svg" /></a>
             <div id="about" class="tab active">
                 <h2>the cat, the myth, the legend</h2>
-                <p>mochi is a stray cat discord bot who specializes in casino games but also offers wholesome services like daily fortune cookies, user stat horoscopes, and treat allowances. those degenerate enough to gamble with mochi can climb their way up his global ranks by collecting treats from their winnings and spending them sparingly in his shop.</p>
-                <p>you can command mochi to do your dirty (or clean) bidding. or if you're normal, you can pet him, play with him, and dote on him like you would an actual cat. you can attempt to get mochi's attention by saying his name or meowing. you can also get mochi to rate anything in the world by feeding it to him. </p>
+                <p>mochi is a stray cat discord bot who specializes in casino games but also offers wholesome services
+                    like daily fortune cookies, user stat horoscopes, and treat allowances. those degenerate enough to
+                    gamble with mochi can climb their way up his global ranks by collecting treats from their winnings
+                    and spending them sparingly in his shop.</p>
+                <p>you can command mochi to do your dirty (or clean) bidding. or if you're normal, you can pet him, play
+                    with him, and dote on him like you would an actual cat. you can attempt to get mochi's attention by
+                    saying his name or meowing. you can also get mochi to rate anything in the world by feeding it to
+                    him.</p>
             </div>
             <div id="guide" class="tab">
                 <h2>mochi's super secret ultimate guide</h2>
-                <p>you can try to get mochi's attention by saying his name, <span>mochi</span>, or by saying <span>meow</span>.</p>
+                <p>you can try to get mochi's attention by saying his name, <span>mochi</span>, or by saying
+                    <span>meow</span>.</p>
                 <p>
-                    <u>blackjack rules</u>: J, Q, K = 10. A = 11, or 1 if your hand is already > 10. react 🃏 for another card. react ✋ to end your turn.
+                    <u>blackjack rules</u>: J, Q, K = 10. A = 11, or 1 if your hand is already > 10. react 🃏 for
+                    another card. react ✋ to end your turn.
                 </p>
 
                 <h3>commands</h3>
@@ -50,13 +55,16 @@
                     <li>access his command guide in discord with <span>.mochi</span></li>
                     <li>feed with .feed (ex <span>.feed salmon</span>)</li>
                     <li>interact with <span>.pet</span>, <span>.play</span>, or <span>.walk</span></li>
-                    <li>make mochi do your bidding with <span>.kiss</span>, <span>.hug</span>, <span>.cuddle</span>, <span>.slap</span>, <span>.punch</span>, or <span>.kill</span> (ex <span>.cuddle @user</span>)</li>
+                    <li>make mochi do your bidding with <span>.kiss</span>, <span>.hug</span>, <span>.cuddle</span>,
+                        <span>.slap</span>, <span>.punch</span>, or <span>.kill</span> (ex <span>.cuddle @user</span>)
+                    </li>
                     <li>get your daily stats with <span>.stats</span></li>
                     <li>claim a daily fortune cookie with <span>.cookie</span> or <span>.fortune</span></li>
                     <li>claim daily treats with <span>.treats</span></li>
                     <li>view total treats with <span>.bank</span></li>
                     <li>give treats to someone with <span>.slide</span> (ex <span>.slide @user 50</span>)</li>
-                    <li>play blackjack with <span>.cards</span> (bet more by adding a number, ex <span>.cards 25</span>)</li>
+                    <li>play blackjack with <span>.cards</span> (bet more by adding a number, ex <span>.cards 25</span>)
+                    </li>
                     <li>play slots with <span>.slots</span> (bet more adding a number, ex <span>.slots 25</span>)</li>
                     <li>access mochi's shop with <span>.shop</span></li>
                     <li>view mochi's global fattest cat hit list with <span>.rank</span></li>
@@ -67,7 +75,8 @@
                 <p>mochi's sprite art is the property of ConcernedApe.</p>
                 <p>by using mochi you agree to the following:</p>
                 <p>user will refrain from malicious use or violations of discord's TOS.</p>
-                <p>mochi will store user's discord user ID and treat count upon interaction until or unless user requests the deletion of their data.</p>
+                <p>mochi will store user's discord user ID and treat count upon interaction until or unless user
+                    requests the deletion of their data.</p>
                 <p>user may email niconicosette@gmail.com at any time to request the deletion of their data.</p>
                 <p>mochi is provided as is, and niconicosette is not liable for damages or losses.</p>
                 <p>access to mochi may be terminated at any time, for any reason.</p>
