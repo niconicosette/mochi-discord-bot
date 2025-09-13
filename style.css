@@ -142,7 +142,7 @@ header {
 #content {
     border-width: 0 1.9rem 1.9rem 1.9rem;
     border-style: solid;
-    border-color: #000;
+    border-color: var(--content--bg);
     overflow-y: scroll;
     background: var(--content--bg);
     cursor: default;
