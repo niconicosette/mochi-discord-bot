@@ -1,0 +1,2 @@
+Homepage for my discord bot, Mochi\
+https://niconicosette.github.io/mochi-discord-bot
